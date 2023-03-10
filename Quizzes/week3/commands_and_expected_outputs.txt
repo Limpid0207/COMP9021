@@ -1,0 +1,453 @@
+TEST 1 BEGIN
+$ echo 1 | python3 quiz_3.py
+Enter a positive integer: 1
+In base 3, the input reads as: 1
+
+So that's how you want to go: ⬃
+
+Let's go then!
+⬃
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 4 | python3 quiz_3.py
+Enter a positive integer: 4
+In base 3, the input reads as: 11
+
+So that's how you want to go: ⬃⬃
+
+Let's go then!
+ ⬃
+⬃
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 5 | python3 quiz_3.py
+Enter a positive integer: 5
+In base 3, the input reads as: 12
+
+So that's how you want to go: ⬃⬂
+
+Let's go then!
+ ⬃
+⬂
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 12 | python3 quiz_3.py
+Enter a positive integer: 12
+In base 3, the input reads as: 110
+
+So that's how you want to go: ⬃⬃⇩
+
+Let's go then!
+  ⬃
+ ⬃
+⇩
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 24 | python3 quiz_3.py
+Enter a positive integer: 24
+In base 3, the input reads as: 220
+
+So that's how you want to go: ⬂⬂⇩
+
+Let's go then!
+⬂
+ ⬂
+  ⇩
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 41 | python3 quiz_3.py
+Enter a positive integer: 41
+In base 3, the input reads as: 1112
+
+So that's how you want to go: ⬃⬃⬃⬂
+
+Let's go then!
+   ⬃
+  ⬃
+ ⬃
+⬂
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 98 | python3 quiz_3.py
+Enter a positive integer: 98
+In base 3, the input reads as: 10122
+
+So that's how you want to go: ⬃⇩⬃⬂⬂
+
+Let's go then!
+  ⬃
+ ⇩
+ ⬃
+⬂
+ ⬂
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 258 | python3 quiz_3.py
+Enter a positive integer: 258
+In base 3, the input reads as: 100120
+
+So that's how you want to go: ⬃⇩⇩⬃⬂⇩
+
+Let's go then!
+  ⬃
+ ⇩
+ ⇩
+ ⬃
+⬂
+ ⇩
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 606 | python3 quiz_3.py
+Enter a positive integer: 606
+In base 3, the input reads as: 211110
+
+So that's how you want to go: ⬂⬃⬃⬃⬃⇩
+
+Let's go then!
+   ⬂
+    ⬃
+   ⬃
+  ⬃
+ ⬃
+⇩
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 1298 | python3 quiz_3.py
+Enter a positive integer: 1298
+In base 3, the input reads as: 1210002
+
+So that's how you want to go: ⬃⬂⬃⇩⇩⇩⬂
+
+Let's go then!
+ ⬃
+⬂
+ ⬃
+⇩
+⇩
+⇩
+⬂
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 3875 | python3 quiz_3.py
+Enter a positive integer: 3875
+In base 3, the input reads as: 12022112
+
+So that's how you want to go: ⬃⬂⇩⬂⬂⬃⬃⬂
+
+Let's go then!
+ ⬃
+⬂
+ ⇩
+ ⬂
+  ⬂
+   ⬃
+  ⬃
+ ⬂
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 20368 | python3 quiz_3.py
+Enter a positive integer: 20368
+In base 3, the input reads as: 1000221101
+
+So that's how you want to go: ⬃⇩⇩⇩⬂⬂⬃⬃⇩⬃
+
+Let's go then!
+ ⬃
+⇩
+⇩
+⇩
+⬂
+ ⬂
+  ⬃
+ ⬃
+⇩
+⬃
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 76300 | python3 quiz_3.py
+Enter a positive integer: 76300
+In base 3, the input reads as: 10212122221
+
+So that's how you want to go: ⬃⇩⬂⬃⬂⬃⬂⬂⬂⬂⬃
+
+Let's go then!
+ ⬃
+⇩
+⬂
+ ⬃
+⬂
+ ⬃
+⬂
+ ⬂
+  ⬂
+   ⬂
+    ⬃
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 324567 | python3 quiz_3.py
+Enter a positive integer: 324567
+In base 3, the input reads as: 121111020000
+
+So that's how you want to go: ⬃⬂⬃⬃⬃⬃⇩⬂⇩⇩⇩⇩
+
+Let's go then!
+    ⬃
+   ⬂
+    ⬃
+   ⬃
+  ⬃
+ ⬃
+⇩
+⬂
+ ⇩
+ ⇩
+ ⇩
+ ⇩
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 540490 | python3 quiz_3.py
+Enter a positive integer: 540490
+In base 3, the input reads as: 1000110102011
+
+So that's how you want to go: ⬃⇩⇩⇩⬃⬃⇩⬃⇩⬂⇩⬃⬃
+
+Let's go then!
+    ⬃
+   ⇩
+   ⇩
+   ⇩
+   ⬃
+  ⬃
+ ⇩
+ ⬃
+⇩
+⬂
+ ⇩
+ ⬃
+⬃
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 9348271 | python3 quiz_3.py
+Enter a positive integer: 9348271
+In base 3, the input reads as: 122120221102021
+
+So that's how you want to go: ⬃⬂⬂⬃⬂⇩⬂⬂⬃⬃⇩⬂⇩⬂⬃
+
+Let's go then!
+ ⬃
+⬂
+ ⬂
+  ⬃
+ ⬂
+  ⇩
+  ⬂
+   ⬂
+    ⬃
+   ⬃
+  ⇩
+  ⬂
+   ⇩
+   ⬂
+    ⬃
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 1028345241 | python3 quiz_3.py
+Enter a positive integer: 1028345241
+In base 3, the input reads as: 2122200000100110210
+
+So that's how you want to go: ⬂⬃⬂⬂⬂⇩⇩⇩⇩⇩⬃⇩⇩⬃⬃⇩⬂⬃⇩
+
+Let's go then!
+⬂
+ ⬃
+⬂
+ ⬂
+  ⬂
+   ⇩
+   ⇩
+   ⇩
+   ⇩
+   ⇩
+   ⬃
+  ⇩
+  ⇩
+  ⬃
+ ⬃
+⇩
+⬂
+ ⬃
+⇩
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 23523523523523 | python3 quiz_3.py
+Enter a positive integer: 23523523523523
+In base 3, the input reads as: 10002021211022210121022012100
+
+So that's how you want to go: ⬃⇩⇩⇩⬂⇩⬂⬃⬂⬃⬃⇩⬂⬂⬂⬃⇩⬃⬂⬃⇩⬂⬂⇩⬃⬂⬃⇩⇩
+
+Let's go then!
+ ⬃
+⇩
+⇩
+⇩
+⬂
+ ⇩
+ ⬂
+  ⬃
+ ⬂
+  ⬃
+ ⬃
+⇩
+⬂
+ ⬂
+  ⬂
+   ⬃
+  ⇩
+  ⬃
+ ⬂
+  ⬃
+ ⇩
+ ⬂
+  ⬂
+   ⇩
+   ⬃
+  ⬂
+   ⬃
+  ⇩
+  ⇩
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 9767345898546567 | python3 quiz_3.py
+Enter a positive integer: 9767345898546567
+In base 3, the input reads as: 1202102212022011000102010121000000
+
+So that's how you want to go: ⬃⬂⇩⬂⬃⇩⬂⬂⬃⬂⇩⬂⬂⇩⬃⬃⇩⇩⇩⬃⇩⬂⇩⬃⇩⬃⬂⬃⇩⇩⇩⇩⇩⇩
+
+Let's go then!
+ ⬃
+⬂
+ ⇩
+ ⬂
+  ⬃
+ ⇩
+ ⬂
+  ⬂
+   ⬃
+  ⬂
+   ⇩
+   ⬂
+    ⬂
+     ⇩
+     ⬃
+    ⬃
+   ⇩
+   ⇩
+   ⇩
+   ⬃
+  ⇩
+  ⬂
+   ⇩
+   ⬃
+  ⇩
+  ⬃
+ ⬂
+  ⬃
+ ⇩
+ ⇩
+ ⇩
+ ⇩
+ ⇩
+ ⇩
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 987654324567898765432456787654 | python3 quiz_3.py
+Enter a positive integer: 987654324567898765432456787654
+In base 3, the input reads as: 212022001200012022210110221012210101000022111101001221002021122
+
+So that's how you want to go: ⬂⬃⬂⇩⬂⬂⇩⇩⬃⬂⇩⇩⇩⬃⬂⇩⬂⬂⬂⬃⇩⬃⬃⇩⬂⬂⬃⇩⬃⬂⬂⬃⇩⬃⇩⬃⇩⇩⇩⇩⬂⬂⬃⬃⬃⬃⇩⬃⇩⇩⬃⬂⬂⬃⇩⇩⬂⇩⬂⬃⬃⬂⬂
+
+Let's go then!
+  ⬂
+   ⬃
+  ⬂
+   ⇩
+   ⬂
+    ⬂
+     ⇩
+     ⇩
+     ⬃
+    ⬂
+     ⇩
+     ⇩
+     ⇩
+     ⬃
+    ⬂
+     ⇩
+     ⬂
+      ⬂
+       ⬂
+        ⬃
+       ⇩
+       ⬃
+      ⬃
+     ⇩
+     ⬂
+      ⬂
+       ⬃
+      ⇩
+      ⬃
+     ⬂
+      ⬂
+       ⬃
+      ⇩
+      ⬃
+     ⇩
+     ⬃
+    ⇩
+    ⇩
+    ⇩
+    ⇩
+    ⬂
+     ⬂
+      ⬃
+     ⬃
+    ⬃
+   ⬃
+  ⇩
+  ⬃
+ ⇩
+ ⇩
+ ⬃
+⬂
+ ⬂
+  ⬃
+ ⇩
+ ⇩
+ ⬂
+  ⇩
+  ⬂
+   ⬃
+  ⬃
+ ⬂
+  ⬂
+TEST 20 END
+
